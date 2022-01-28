@@ -1,0 +1,116 @@
+@media screen and (max-width: 992px){
+    .div-slang{
+        background-image: none;
+    }
+    .div-photo img{
+        max-width: 250px;
+        min-width: 250px;
+        max-height: 150px;
+        min-height: 150px;
+    }
+    .game-div-photo img{
+        max-width: 250px;
+        min-width: 250px;
+        max-height: 150px;
+        min-height: 150px;
+    }
+    .maps{
+        padding-left: 70px;
+    }
+    .maps h2{
+        padding-left: 0px;
+        margin-left: -15px;
+    }
+    .map{
+        max-width: 800px;
+    }
+    .contact{
+        padding-left: 40px;
+    }        
+}
+@media screen and (max-width: 768px){
+    .a-nav a{
+        font-size: 16px;
+        padding-right: 15px;
+    }
+    .slang{
+        padding-left: 120px;
+    }
+    .div-about{
+        margin-left: 100px;
+    }
+    .div-about p{
+        font-size: 18px;
+    }
+    .div-photo img{
+        max-width: 210px;
+        min-width: 210px;
+        max-height: 140px;
+        min-height: 140px;
+    }
+    .game-div-photo img{
+        max-width: 210px;
+        min-width: 210px;
+        max-height: 140px;
+        min-height: 140px;
+    }
+    .map{
+        max-width: 650px;
+        max-height: 400px;
+    }
+    .maps{
+        padding-left: 20px;
+    }
+}
+@media screen and (max-width: 576px){
+    .logo{
+        max-width: 64px;
+        max-height: 64px;
+    }
+    .a-nav a{
+        font-size: 14px;
+        padding-right: 5px;
+    }
+    .head button{
+        min-width: 120px;
+    }
+    .slang{
+        padding-left: 60px;
+    }
+    .slang-title{
+        font-size: 46px;
+    }
+    .div-about p{
+        font-size: 16px;
+    }
+    .halls-p-slang{
+        font-size: 18px;
+    }
+    .div-photo{
+        flex-direction: column;
+    }
+    .div-photo img{
+        margin-left: 135px;
+        max-width: 240px;
+        min-width: 240px;
+        max-height: 160px;
+        min-height: 160px;
+    }
+    .game-div-photo{
+        flex-direction: column;
+    }
+    .game-div-photo img{
+        margin-left: 120px;
+        max-width: 280px;
+        min-width: 280px;
+        max-height: 160px;
+        min-height: 160px;
+    }
+    .map{
+        max-width: 500px;
+        max-height: 250px;
+    }
+    .maps{
+        padding-left: 10px;
+    }
+}

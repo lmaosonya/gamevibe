@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+body{
+    font-family: 'Play', sans-serif;
+}
+header{
+    background-color: #131316;
+}
+.head{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+}
+.a-nav a{
+    text-decoration: none;
+    color: white;
+    padding-right: 35px;
+    font-size: 20px;
+}
+.a-nav a:hover{
+    color: #4AE290;
+    transition-duration: 0.5s;
+}
+.logo{
+    max-width: 84px;
+    max-height: 84px;
+}
+.head button{
+    border: none;
+    background-color: #131316;
+    min-width: 180px;
+    min-height: 40px;
+    border-radius: 20px;
+}
+.head button a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+.head button:hover{
+    background-color: #4AE290;
+    transition-duration: 0.5s;
+}
+.div-slang{
+    background-image: url(../img/gifbackground.gif);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+.slang{
+    max-width: 800px;
+    max-height: 364px;
+    margin-top: 180px;
+    padding-bottom: 600px;
+    padding-left: 220px;
+}
+.slang-title{
+    font-size: 56px;
+    font-weight: 800;
+    color: white;
+    padding-bottom: 28px;
+}
+.slang-title span{
+    color: #4AE290;
+}
+.h3-slang{
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 28px;
+}
+.slang button{
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    border: none;
+    min-width: 250px;
+    min-height: 40px;
+    border-radius: 5px;
+}
+.slang button:hover{
+    background-color: #4AE290;
+    transition-duration: 0.5s;
+    color: white;
+}
+.div-about-mini{
+    display: flex;
+    justify-content: center;
+}
+.about-mini{
+    background-image: url(../img/png/fa-solid_user-friends.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    max-width: 600px;
+    max-height: 460px;
+    margin-top: 120px;
+    padding-top: 60px;
+}
+.about-mini h2{
+    text-align: center;
+    font-size: 46px;
+    font-weight: 800;
+    padding-left: 40px;
+}
+.about-mini h2 span{
+    color: #4AE290;
+}
+.about-mini p{
+    font-size: 18px;
+    text-align: justify;
+}
+.about-mini p span{
+    font-weight: 600;
+}
+.div-photo-h2{
+    display: flex;
+    justify-content: center;
+}
+.photo-h2{
+    background-image: url(../img/png/Speech\ Icon.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    min-width: 600px;
+    min-height: 130px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.photo-h2 h2{
+    text-align: left;
+    font-size: 46px;
+    font-weight: 800;
+    padding-left: 50px;
+    padding-top: 40px; 
+}
+.photo-h2 h2 span{
+    color: #4AE290;
+}
+footer{
+    background-color: #131316;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    margin-top: 50px;
+}
+.div-footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #4AE290;
+}
+.footer img{
+    max-width: 18px;
+    max-height: 18px;
+}
+.footer span{
+    font-weight: 600;
+}
+.footer h3{
+    font-size: 30px;
+    padding-top: 20px;
+    color: #4AE290;
+}
+.footer a{
+    text-decoration: none;
+    color: #4AE290;
+    font-weight: 600;
+}
+.footer a:hover{
+    color: white;
+    transition-duration: 0.5s;
+}
+.text-footer{
+    text-align: center;
+    font-weight: 600;
+    color: #4AE290;
+    padding-top: 20px;
+}
